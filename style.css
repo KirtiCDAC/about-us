@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -28,7 +28,7 @@ footer {
     display: flex;
     flex-direction: column;
     position: relative;
-
+    background-color: #422F5E;
 }
 
 footer p {
@@ -36,15 +36,26 @@ footer p {
     font-size: 14px
 }
 
-#nav2{
-    background-color: #422F5E!important;
+footer .underLine {
+    width: 60px;
+    background-color: #7c4dff;
+    height: 2px;
 }
 
-#nav2 a{
+footer #bottomLine {
+    background-color: #7c4dff;
+    height: 2px;
+}
+
+#nav2 {
+    background-color: #422F5E !important;
+}
+
+#nav2 a {
     color: #fff;
 }
 
-#logo-img{
+#logo-img {
     /* min-height: 0px; */
     /* display: flex;
     flex-direction: row;
@@ -53,61 +64,64 @@ footer p {
     flex-wrap: wrap;
     background-color: white;
 }
-#logo-img img{
+
+#logo-img img {
     padding: 5px;
     width: 100px;
 }
+
 /* body{ */
-    /* position: absolute;
+/* position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%); */
-    /* background-color: rgb(5, 8, 8); */
-    /* background-image: url(carousel-img.jpg);
+/* background-color: rgb(5, 8, 8); */
+/* background-image: url(carousel-img.jpg);
     background-repeat: no-repeat;
     background-size: cover; */
-	/* -webkit-filter: blur(10px);
+/* -webkit-filter: blur(10px);
 	-moz-filter: blur(10px);
 	filter: blur(10px); */
 
 /* } */
-#whole-form
-{
+#whole-form {
     background-image: url(carousel-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     /* margin: 0; */
     /* padding: 10px; */
 }
+
 /* #login{
     position: relative;
     width: 400px;
     height: auto;
 } */
-.form-box{
+.form-box {
     position: relative;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-form{
+form {
     position: relative;
     padding: 4%;
 }
-.hname{
+
+.hname {
     color: #422F5E;
-    font-weight:800;
+    font-weight: 800;
 }
 
-.form-floating{
+.form-floating {
     transform: scale(85%);
 }
 
-.sub-btn{
+.sub-btn {
     height: 50px;
     transform: scale(85%);
     font-size: 20px;
@@ -117,7 +131,7 @@ form{
     border: 1px solid #fff;
 }
 
-.sub-btn:hover{
+.sub-btn:hover {
     background: #9272C0;
     transition: 1s;
     font-size: 15px;
