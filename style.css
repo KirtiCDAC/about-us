@@ -16,7 +16,32 @@
     width: 90px;
     height: auto;
 }
+#nav i{
+    color: #9272C0;
+    cursor: pointer;
+}
+#nav .social-icons{
+    display: flex;
+    gap: 10px;
+}
+@media (max-width: 768px) {
+    #nav .container-fluid {
+        flex-direction: column;
+        align-items: center;
+    }
+    #nav a{
+        text-align: center;
+    }
+    #nav h3{
+        text-align: center;
+        margin-top: 10px;
+    }
 
+    .social-icons {
+        margin-top: 10px; 
+        text-align: center;
+    }
+}
 
 
 footer {
